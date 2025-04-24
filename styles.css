@@ -1,0 +1,6 @@
+#signaturePreview, #signatureInput {
+    display: none;
+}
+img#signaturePreview {
+    border: 1px solid #c4caac;
+}

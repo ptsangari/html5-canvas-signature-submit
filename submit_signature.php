@@ -1,7 +1,7 @@
 <?php
-if (isset($_POST['signatureImage'])) {
+if (isset($_POST['signatureInput'])) {
     // Get the base64 encoded string
-    $signatureData = $_POST['signatureImage'];
+    $signatureData = $_POST['signatureInput'];
 
     // Remove the data:image/png;base64, part
     $signatureData = str_replace('data:image/png;base64,', '', $signatureData);
